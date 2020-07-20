@@ -92,7 +92,7 @@ section{
 
 .card{
     background-color:white;
-    display: inline block;
+    display: inline-block;
     width: 250px;
     margin: 15px;
     text-align: left;
