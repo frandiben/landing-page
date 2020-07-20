@@ -1,0 +1,227 @@
+/*
+color used is #00d2b5
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap');
+
+*{
+    font-family: Montserrat;
+}
+
+body, section{
+    margin: 0;
+}
+
+header{
+    font-size: 36px;
+    text-align: center;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+}
+
+nav li{
+    display:inline-block;
+    padding: 20px 25px 0 25px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav li a:hover{
+    color: #00d2b5;
+}
+
+h1{
+    text-transform: capitalize;
+    font-size: 48px;
+}
+
+section div{
+    display: inline-block;
+}
+
+button, input[type="button"]{
+    background-color: #00d2b5;
+    color: white;
+    font-size: 12px;
+    border-radius: 20px;
+    border-width: 0;
+    padding: 12px;
+}
+
+#home {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#main_part{
+    width: 40%;
+}
+#img-home, .hero-image, .hero-card{
+    width: 49%;
+}
+#img-home img{
+    max-width:130%;
+}
+
+section{
+    margin-top: 15px;
+}
+
+#card-section, #about_us{
+    background-color: lightgrey;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* non capisco perché questa classe di div per la centratura non stia funzionando */
+.center960{  
+    width: 960px;
+    margin: 0 auto;
+    float: none;
+}
+
+.card{
+    background-color:white;
+    display: inline block;
+    width: 250px;
+    margin: 15px;
+    text-align: left;
+    padding: 10px;
+}
+
+.card a{
+    text-decoration: none;
+    color: #00d2b5;
+}
+
+.card i{ /* da sistemare */
+    color: white;
+    background-color: #00d2b5;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.hero-card img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    float: left;
+    margin: 5px 20px 5px 15px;
+}
+
+.hero-image img{
+    width: 480px;
+}
+
+#hero-section{
+    text-align: center;
+}
+
+#hero-section div{
+    display: inline-block;
+}
+
+.hero-text{
+    width: 50%;
+    text-align: left;
+}
+
+.hero-card{
+    width: 100%;
+    border: 1px solid lightgrey;
+    box-shadow: 5px 5px 5px lightgrey;
+}
+
+
+
+#about_us div img{
+    width: 400px;
+    float: left;
+}
+
+#about_us div div{
+    width: 45%;
+    display: inline-block;
+    text-align: left;
+}
+
+#about_us{
+    padding-bottom: 50px;
+}
+
+#features, #testimonials, #blog, #contact{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#testimonials img{
+    width: 100px;
+    border-radius: 50px;
+}
+
+blockquote{
+    font-style: italic;
+}
+
+.blog-post{
+    width: 270px;
+    display: inline-block;
+    margin: 20px;
+    text-align: left;
+}
+
+.blog-post p:first-of-type{
+    font-size: 12px;
+}
+
+.blog-post a{
+    text-decoration: none;
+    color: #00d2b5;
+}
+
+.blog-post img{
+    width: 100%;
+}
+
+#contact{
+    background-color: lightgrey;
+}
+
+#contact-form{
+    background-color: white;
+    width: 600px;
+    text-align: left;
+    padding: 20px;
+}
+
+#contact-form div{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#contact-form 
+
+#contact p{
+    font-size: 24px;
+}
+
+footer{
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #00d2b5;
+}
